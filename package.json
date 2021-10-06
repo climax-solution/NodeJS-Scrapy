@@ -1,0 +1,22 @@
+{
+  "name": "nodejs-myagedcare",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "label": "nodemon label.js",
+    "nid": "nodemon nid.js",
+    "log": "nodemon logs.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.22.0",
+    "csv-parser": "^3.0.0",
+    "json2csv": "^5.0.6",
+    "nodemon": "^2.0.13"
+  },
+  "type": "module"
+}
